@@ -1,129 +1,188 @@
-body{
-    margin: 0px;
-    color: #40515E;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    /* font-size: 30px; */
+body {
+  margin: 0px;
+  color: #40515e;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /* font-size: 30px; */
 }
 .btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ed);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ed);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ed);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ed);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ed);
+  text-decoration: none;
+}
+.bottom-container {
+  /* margin-top: 50px; */
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #eaf6f6;
+  padding: 20px 0px;
+  font-size: 0.85rem;
+}
+.contactmessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.topcontainer {
+  background-color: #eaf9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.topcontainer h2 {
+  margin: 0px;
+}
+h1 {
+  color: #66bfbf;
+  line-height: 2;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-family: "Sacramento", cursive;
+  font-size: 5.62rem;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.2rem;
+  padding: 10px;
+  color: #66bfbf;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+hr {
+  border: dotted;
+  border-bottom: none;
+  color: #eaf6f6;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.middle-container {
+  margin: 100px 0px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.p-photo {
+  height: 200px;
+}
+@media (max-width: 600px) {
+  body {
+    /* width:100%; */
+    height: 100vh;
   }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ed);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ed);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ed);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ed);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ed);
-    text-decoration: none;
+  .topcontainer {
+    width: 210%;
   }
-.bottom-container{
-    /* margin-top: 50px; */
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
+  .middle-container {
+    width: 210%;
+  }
+  .bottom-container {
+    width: 210%;
+  }
+  .skill-row {
+    width: 90%;
+  }
+  .contactmessage {
+    width: 70%;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .top-cloud {
+    right: 22%;
+  }
+  .bottom-cloud {
+    left: 30%;
+  }
 }
-.copyright{
-    color: #EAF6F6;
-    padding: 20px 0px;
-    font-size: .85rem;
+@media (max-width: 550px) {
+  .top-cloud {
+    right: 18%;
+  }
+  .bottom-cloud {
+    left: 25%;
+  }
 }
-.contactmessage{
-    width: 40%;
-    margin: 40px auto 60px;
+@media (max-width: 475px) {
+  .top-cloud {
+    right: 7rem;
+  }
+  .bottom-cloud {
+    left: 20%;
+  }
 }
-.topcontainer{
-    background-color: #EAF9F5;
-    position: relative;
-    padding-top: 100px;
+@media (max-width: 425px) {
+  .top-cloud {
+    right: 5rem;
+  }
+  .bottom-cloud {
+    left: 16%;
+  }
 }
-.topcontainer h2{
-    margin: 0px;
-}
-h1{
-    color: #66BFBF;
-    line-height: 2;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.62rem;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    font-size: 2.2rem;
-    padding: 10px;
-    color: #66BFBF;
-
-
-}
-h3{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-
-}
-hr{
-    border: dotted;
-    border-bottom: none;
-    color: #EAF6F6;
-    width: 4%;
-    margin: 100px auto;
-}
-a{
-    margin: 10px 20px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: #11999e;
-
-}
-a:hover{
-    color: #EAF6F6;
-}
-.middle-container{
-    margin: 100px 0px;
-}
-
-.skill-row{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-
-}
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-.computer{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-}
-.skill{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-.p-photo
-{
-    height: 200px;
+@media (max-width: 400px) {
+  .top-cloud {
+    right: 4rem;
+  }
+  .bottom-cloud {
+    left: 14%;
+  }
 }
